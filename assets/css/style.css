@@ -1,0 +1,72 @@
+body {
+    background-image: url("../images/background_img.jpg");
+}
+
+#pantalla {
+    overflow: auto;
+}
+#pantalla div {
+    float: left;
+}
+#title {
+    width: 250px;
+    padding: 4px;
+    margin-bottom: 10px;
+    color: #f80c0c;
+    background-color: #45494e;
+}
+
+#reglas {
+    width: 400px;
+    height: 400px;
+    padding: 4px;
+    margin-bottom: 10px;
+    color: rgb(22, 22, 21);
+    background-color: rgb(243, 114, 28);
+}
+#displayRandom {
+    width: 200px;
+    height: 100px;
+    padding: 4px;
+    font-size: 3vw;
+    color: purple;
+    background-color: mediumseagreen;
+}
+#tituloPuntos {
+    width: 210px;
+    padding: 4px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: darkcyan;
+}
+#areaPuntos {
+    width: 210px;
+  height: 100px;
+  padding: 4px;
+  color: ghostwhite;
+  background-color: darkcyan;
+}
+.crystals-button {
+    display: inline;
+  }
+  
+  .crystal-img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    background-color: white;
+    border: solid;
+    border-color: lightblue;
+  }
+  
+  #score-number {
+    font-size: 3vw;
+  }
+  
+  #win-area {
+    height: 100px;
+    padding: 4px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: aqua;
+  }
